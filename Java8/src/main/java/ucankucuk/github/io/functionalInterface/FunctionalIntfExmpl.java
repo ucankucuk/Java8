@@ -1,4 +1,6 @@
-package ucankucuk.github.io;
+package ucankucuk.github.io.functionalInterface;
+
+import java.util.function.Function;
 
 public class FunctionalIntfExmpl {
 
@@ -8,6 +10,8 @@ public class FunctionalIntfExmpl {
 
         Function<String, String> strFunc = x -> x + " ADDED";
         System.out.println(strFunc.apply("XXX"));
+
+        System.out.println(strFunc.andThen(intFunc).apply("ucankucuk"));
 
     }
 
