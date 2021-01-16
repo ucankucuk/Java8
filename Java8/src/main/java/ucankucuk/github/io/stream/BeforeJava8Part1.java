@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Example java code before Java8
  */
-public class Before {
+public class BeforeJava8Part1 {
 
     public static void main(String[] args) {
         List<String> strList = Arrays.asList("java", "c++", "python", "R", "Ruby");

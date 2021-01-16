@@ -6,11 +6,11 @@ import java.util.stream.Collectors;
 
 /**
  * Example java code with Java8
- * .strem()   -> Convert List to Strem
+ * .strem()   -> Convert List to Stream
  * .filter()  -> to filter a List
  * .collect() -> Convert Stream into a List
  */
-public class After {
+public class AfterJava8Part1 {
     public static void main(String[] args) {
         List<String> strList = Arrays.asList("java", "c++", "python", "R", "Ruby");
 
